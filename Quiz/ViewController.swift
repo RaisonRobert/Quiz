@@ -63,10 +63,8 @@ class ViewController: UIViewController {
                 textresposta[i].setTitle(perg, for: .normal)
             }
         }else{
-//            performSegue(withIdentifier: "homeToFinal", sender: self)
-//            cont = 0
-//            resultado.text = "Parabéns você acertou \(result) Respostas"
-//            print(result)
+            performSegue(withIdentifier: "homeToFinal", sender: self)
+            print("Parabéns você acertou \(result) Respostas")
         }
     }
     
@@ -82,10 +80,8 @@ class ViewController: UIViewController {
                 textresposta[i].setTitle(perg, for: .normal)
             }
         }else{
-//            performSegue(withIdentifier: "homeToFinal", sender: self)
-//            cont = 0
-//            resultado.text = "Parabéns você acertou \(result) Respostas"
-//            print(result)
+            performSegue(withIdentifier: "homeToFinal", sender: self)
+            print("Parabéns você acertou \(result) Respostas")
         }
     }
     
@@ -101,10 +97,8 @@ class ViewController: UIViewController {
                 textresposta[i].setTitle(perg, for: .normal)
             }
         }else{
-//            performSegue(withIdentifier: "homeToFinal", sender: self)
-//            cont = 0
-//            resultado.text = "Parabéns você acertou \(result) Respostas"
-//            print(result)
+            performSegue(withIdentifier: "homeToFinal", sender: self)
+            print("Parabéns você acertou \(result) Respostas")
         }
     }
     
@@ -120,10 +114,8 @@ class ViewController: UIViewController {
                 textresposta[i].setTitle(perg, for: .normal)
             }
         }else{
-//            performSegue(withIdentifier: "homeToFinal", sender: self)
-//            cont = 0
-//            resultado.text = "Parabéns você acertou \(result) Respostas"
-//            print(result)
+            performSegue(withIdentifier: "homeToFinal", sender: self)
+            print("Parabéns você acertou \(result) Respostas")
         }
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
